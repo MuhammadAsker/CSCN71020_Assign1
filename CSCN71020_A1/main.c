@@ -40,7 +40,7 @@ void printOptions() {
 }
 
 void add() {
-	double num1, num2, result;
+	int num1, num2, result;
 	printf("Enter the first value:");
 	scanf_s("%lf", &num1);
 	printf("Enter the second value:");
@@ -50,7 +50,7 @@ void add() {
 }
 
 void subtract() {
-	double digi1, digi2, resultOfSubtraction;
+	int digi1, digi2, resultOfSubtraction;
 	printf("Enter the first value:");
 	scanf_s("%lf", &digi1);
 	printf("Enter the second value:");
